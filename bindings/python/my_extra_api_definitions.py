@@ -1,5 +1,6 @@
 from pybindgen import Module, FileCodeSink, write_preamble, param, retval
 
+
 def register_types(module):
     module.add_class('MyClass')
     
